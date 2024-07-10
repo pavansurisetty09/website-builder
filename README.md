@@ -47,34 +47,45 @@ Before you begin, ensure you have met the following requirements:
 
 ## Install frontend dependencies:
 
+```bash
 cd frontend
 npm install
+```
 
 ## Install backend dependencies:
 
+```bash
 cd ../backend
 npm install
+```
 
 ## Set up environment variables:
 
+```bash
 MONGO_URI=mongodb+srv://yourusername:P%40ssw%3Ard%2F123@cluster0.mongodb.net/yourdbname?retryWrites=true&w=majority
 PORT=5000
+```
 
 ## Running the Application
 
 Running Frontend
 To start the frontend server, navigate to the root directory and run:
 
+```bash
 cd frontend
 npm start
-The frontend application will be available at http://localhost:3000.
+```
+
+The frontend application will be available at http://localhost:9000.
 
 Running Backend
 To start the backend server, navigate to the backend directory and run:
 
+```bash
 cd backend
 npm run dev
 The backend API will be available at http://localhost:5000.
+```
 
 ## API Endpoints
 
@@ -83,13 +94,13 @@ PUT /api/config/:id: Update configuration data
 
 ## Technologies Used
 
-Frontend:
+**Frontend:**
 
 React
 Redux
 Tailwind CSS
 
-Backend:
+**Backend:**
 
 Node.js
 Express
@@ -102,6 +113,9 @@ Contributions are welcome! Please follow these steps to contribute:
 
 Fork the repository.
 Create a new branch (git checkout -b feature-branch).
+
 Make your changes and commit them (git commit -m 'Add some feature').
+
 Push to the branch (git push origin feature-branch).
+
 Create a new Pull Request.
